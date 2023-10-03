@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Roboto&display=swap');
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing:border-box ;
+}
+body{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+:root {
+    --primary-color: #3a9df4;
+    --secondary-color: #125ec1;
+    --heading-font : 'Roboto', sans-serif;;
+    --paragraph-font:'Heebo', sans-serif;
+    --background-color: rgb(34, 150, 152, .3) ;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    .hero {
+        margin-bottom: 1rem;
+    }
+    h1,h2,h3{
+        font-family: var(--heading-font);
+        color: var(--secondary-color);
+    }
+    .hero h1 {
+        width: 95%;
+        height: auto;
+        position: absolute;
+        background-color:  rgba(0, 0, 0, 0.8);
+        top: 420px;
+        text-align: center;
+        
+    }
+      
+    .hero img {
+     width: 100%;
+     height: auto;     
+    }
+    
+    article{
+        width: 60%;
+        height: auto;
+        position: absolute;
+        background-color:var(--background-color);
+        top: 100%;
+        left: 20%;
+    }
+    article img{
+        float: right;
+    
+    }
+    p {
+        margin: 1rem;
+        padding: 1rem;
+        font-family: var(--paragraph-font);
+    }
+    
+   
+   
+   .adventure img{
+    margin: 1rem;
+    display: block;
+    
+   }
+
+    
+   
