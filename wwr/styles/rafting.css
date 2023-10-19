@@ -137,9 +137,69 @@ body{
 footer{
     margin: 2rem;
     display: flex;
-    justify-content:flex-end;
-   
-    
-    
+    justify-content:flex-end;   
 
 }
+main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color:#ccc;
+
+}
+.contact{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.img-contact{
+    height: 133px;
+    display: flex;
+    justify-content: center; 
+    align-self: center;
+    justify-content: space-around;
+}
+.img-contact img {
+    width: 160px;
+    height: 140px;
+}
+
+.iframe{
+    padding: 1rem;
+    margin: 1rem;
+}
+fieldset{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+form{
+width:650px;
+padding:1rem;
+border-radius:0.5rem;
+margin:0 auto;
+background-color:#ccc;
+}
+
+form label{
+text-align:center;
+
+font-weight:lighter;
+display: flex;
+
+}
+
+
+
+button{
+margin: 1rem;
+background-color: navy;
+color: #fff;
+border: none;
+border-radius: .5rem;
+padding:.75rem;
+font-size: 1.2rem;
+}
+
